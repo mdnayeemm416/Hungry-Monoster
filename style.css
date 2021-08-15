@@ -1,0 +1,45 @@
+.search-bar{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+#search-btn{
+    background-color:tomato;
+    height: 40px;
+    width: 80px;
+    margin-left: 5px;
+    border-radius: 10px;
+    border: none;
+}
+#search-input{
+    color: black;
+    outline: none;
+    border-radius: 10px;
+    border: 1px solid;
+}
+.meal{
+    float: left;
+    padding: 15px; 
+    margin:auto;  
+    
+}
+#meal-name{
+    width: 1140px;
+    height:100vh;
+    margin: auto;
+}
+#meal-name img{
+    width: 250px;
+    margin-top: 50px;
+}
+#meal-details{
+    display: none;
+    text-align: center;
+}
+#meal-details img{
+    width: 250px;
+    margin-top: 50px;
+}
+#meal-details h5{
+    color: gray;
+}
